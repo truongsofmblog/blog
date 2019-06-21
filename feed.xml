@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://taylantatli.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taylantatli.github.io/" rel="alternate" type="text/html" /><updated>2017-07-04T15:02:49+00:00</updated><id>https://taylantatli.github.io/</id><title type="html">Taylan Tatlı</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Halve Jekyll Theme</title><link href="https://taylantatli.github.io/halve-theme/" rel="alternate" type="text/html" title="Halve Jekyll Theme" /><published>2016-05-29T00:00:00+00:00</published><updated>2016-05-29T00:00:00+00:00</updated><id>https://taylantatli.github.io/halve-theme</id><content type="html" xml:base="https://taylantatli.github.io/halve-theme/">&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/halve-home-image.png&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/halve-home-image.png&quot; alt=&quot;Home Page of Halve&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;b&gt;Halve&lt;/b&gt; is a stylish, two-column jekyll theme.&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This theme is Jekyll port of &lt;a href=&quot;http://vangeltzo.com/&quot;&gt;vangeltzo.com&lt;/a&gt; (by &lt;a href=&quot;https://github.com/srekoble&quot;&gt;Vangelis Tzortzis&lt;/a&gt;). I couldn’t stop myself to port this theme when I saw his site. And he kindly gave me permission to share this with you.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ghbtns.com/github-btn.html?user=TaylanTatli&amp;amp;repo=Halve&amp;amp;type=star&amp;amp;count=true&amp;amp;size=large&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;160px&quot; height=&quot;30px&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;installation-and-quick-usage&quot;&gt;Installation and Quick Usage&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/TaylanTatli/Halve/fork&quot;&gt;Halve repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/projects.yaml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add a logo with a small one to &lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt; folder. (eg. &lt;code class=&quot;highlighter-rouge&quot;&gt;logo.png&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;logo-small.png&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Remove sample posts from &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder and add yours.&lt;/li&gt;
+  &lt;li&gt;Remove/Change sample images from &lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt; folder.&lt;/li&gt;
+  &lt;li&gt;Change repo name to &lt;code class=&quot;highlighter-rouge&quot;&gt;YourUserName.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s all.&lt;/p&gt;
+
+&lt;p&gt;If you want to make a &lt;strong&gt;Project Page&lt;/strong&gt;, you have to use &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; branch. For &lt;strong&gt;Personal Page&lt;/strong&gt;; &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; branch. More info &lt;a href=&quot;https://help.github.com/articles/about-github-pages-and-jekyll/#jekylls-build-process&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/halve-home-image.png&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/halve-home-image.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-1.png&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-1.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-2.png&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-2.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Halve Theme&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-3.png&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-6.png&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-6.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-4.png&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-4.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Mobile view of Halve Theme&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;See a &lt;a href=&quot;http://taylantatli.github.io/Halve&quot;&gt;live version of Halve&lt;/a&gt; hosted on GitHub.&lt;/p&gt;
+
+&lt;h2 id=&quot;site-setup&quot;&gt;Site Setup&lt;/h2&gt;
+&lt;p&gt;A quick checklist of the files you’ll want to edit to get up and running.&lt;/p&gt;
+
+&lt;h3 id=&quot;site-wide-configuration&quot;&gt;Site Wide Configuration&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; is your friend. Open it up and personalize it. Most variables are self explanatory but here’s an explanation of each if needed:&lt;/p&gt;
+
+&lt;h4 id=&quot;title&quot;&gt;title&lt;/h4&gt;
+
+&lt;p&gt;The title of your site… shocker!&lt;/p&gt;
+
+&lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;title: My Awesome Site&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;description&lt;/h4&gt;
+
+&lt;p&gt;The description to use for meta tags and homepage.&lt;/p&gt;
+
+&lt;h4 id=&quot;url&quot;&gt;url&lt;/h4&gt;
+
+&lt;p&gt;Used to generate absolute urls in &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;, and for generating canonical URLs in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. When developing locally either comment this out or use something like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; so all assets load properly. &lt;em&gt;Don’t include a trailing &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Halve&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://localhost:4000&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;//cooldude.github.io&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;logo&quot;&gt;logo&lt;/h4&gt;
+&lt;p&gt;Your site’s logo. It will be shown on homepage. Also used for twitter meta tags.&lt;/p&gt;
+
+&lt;h4 id=&quot;background&quot;&gt;background&lt;/h4&gt;
+&lt;p&gt;Here we will set images for left block. Example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;background:
+  homepage: images/home.png
+  post-list: images/unsplash-image-10.jpg
+  default-post: images/unsplash-gallery-image-3.jpg 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;homepage&lt;/dt&gt;
+  &lt;dd&gt;Is for homepage background image.&lt;/dd&gt;
+  &lt;dt&gt;post-list&lt;/dt&gt;
+  &lt;dd&gt;Is for posts list page background image.&lt;/dd&gt;
+  &lt;dt&gt;default-post&lt;/dt&gt;
+  &lt;dd&gt;Is for posts' default background image. It will be shown for every posts that don't specify any image from post's YAML front matter.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;projects-overlay&quot;&gt;Projects Overlay&lt;/h3&gt;
+
+&lt;p&gt;To set what image links appear in the overlay menu edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/projects.yaml&lt;/code&gt;. Use the following format to set the URL, title, image and project status for as many links as you’d like. If you set &lt;code class=&quot;highlighter-rouge&quot;&gt;completed&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; like &lt;code class=&quot;highlighter-rouge&quot;&gt;completed: false&lt;/code&gt;, it won’t be clickable until you set it true like &lt;code class=&quot;highlighter-rouge&quot;&gt;completed: true&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Moon Jekyll Theme&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Moon&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Ramme Jekyll Theme&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Ramme&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Daisy Pelican Theme&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Daisy-Pelican-Theme/&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Block Icon Theme&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://github.com/TaylanTatli/Block-Icon-Theme&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Start Page&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/StartPage/&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;layouts-and-content&quot;&gt;Layouts and Content&lt;/h2&gt;
+
+&lt;p&gt;Halve Theme use &lt;a href=&quot;https://github.com/penibelst/jekyll-compress-html&quot;&gt;Jekyll Compress&lt;/a&gt; to compress html output. But it can cause errors if you use “linenos” (line numbers). I suggest don’t use line numbers for codes, because it won’t look good with this theme, also i didn’t give a proper style for them. If you insist to use line numbers, just remove &lt;code class=&quot;highlighter-rouge&quot;&gt;layout: compress&lt;/code&gt; string from layouts. It will disable compressing.&lt;/p&gt;
+
+&lt;h3 id=&quot;images-for-posts&quot;&gt;Images for Posts&lt;/h3&gt;
+
+&lt;p&gt;You can set left block image per post. Just add &lt;code class=&quot;highlighter-rouge&quot;&gt;image: some link&lt;/code&gt; to your post’s front matter. If you don’t set this, default post image will be used from &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;image: /assets/img/some-image.png
+or
+image: http://example.com/some-image.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This also will be used for twitter card:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Halve/master/images/post-image-halve-5.png&quot; alt=&quot;Halve Twitter Card&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions?&lt;/h2&gt;
+
+&lt;p&gt;Found a bug or aren’t quite sure how something works? By all means &lt;a href=&quot;https://github.com/TaylanTatli/Halve/issues/new&quot;&gt;file a GitHub Issue&lt;/a&gt;. And if you make something cool with this theme feel free to let me know.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="halve" /><category term="blog" /><category term="vangeltzo" /><category term="theme" /><category term="vangelis" /><summary type="html">Stylish, two-column Jekyll theme for your blog.</summary></entry><entry><title type="html">Moon Jekyll Theme</title><link href="https://taylantatli.github.io/moon-jekyll-theme/" rel="alternate" type="text/html" title="Moon Jekyll Theme" /><published>2016-04-14T00:00:00+00:00</published><updated>2016-04-14T00:00:00+00:00</updated><id>https://taylantatli.github.io/moon-jekyll-theme</id><content type="html" xml:base="https://taylantatli.github.io/moon-jekyll-theme/">&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png&quot; alt=&quot;Moon Homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;b&gt;Moon&lt;/b&gt; is a minimal, one column jekyll theme.&lt;/center&gt;
+
+&lt;p&gt;I’m not a developer or designer. And I don’t add footer to show who did this theme. If you like this theme or using it, please give a &lt;strong&gt;star&lt;/strong&gt; for motivation, It makes me happy.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://ghbtns.com/github-btn.html?user=TaylanTatli&amp;amp;repo=Moon&amp;amp;type=star&amp;amp;count=true&amp;amp;size=large&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;160px&quot; height=&quot;30px&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/TaylanTatli/Moon/fork&quot;&gt;Moon repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
+  &lt;li&gt;Remove sample posts from &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder and add yours.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt; file in &lt;code class=&quot;highlighter-rouge&quot;&gt;about&lt;/code&gt; folder.&lt;/li&gt;
+  &lt;li&gt;Change repo name to &lt;code class=&quot;highlighter-rouge&quot;&gt;YourUserName.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s all.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Moon Theme&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    
+    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Moon Theme on Small Screen Size&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;See a &lt;a href=&quot;http://taylantatli.github.io/Moon&quot;&gt;live version of Moon&lt;/a&gt; hosted on GitHub.&lt;/p&gt;
+
+&lt;h2 id=&quot;site-setup&quot;&gt;Site Setup&lt;/h2&gt;
+&lt;p&gt;A quick checklist of the files you’ll want to edit to get up and running.&lt;/p&gt;
+
+&lt;h3 id=&quot;site-wide-configuration&quot;&gt;Site Wide Configuration&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; is your friend. Open it up and personalize it. Most variables are self explanatory but here’s an explanation of each if needed:&lt;/p&gt;
+
+&lt;h4 id=&quot;title&quot;&gt;title&lt;/h4&gt;
+
+&lt;p&gt;The title of your site… shocker!&lt;/p&gt;
+
+&lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;title: My Awesome Site&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;bio&quot;&gt;bio&lt;/h4&gt;
+
+&lt;p&gt;The description to show on your homepage.&lt;/p&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;description&lt;/h4&gt;
+
+&lt;p&gt;The description to use for meta tags and navigation menu.&lt;/p&gt;
+
+&lt;h4 id=&quot;url&quot;&gt;url&lt;/h4&gt;
+
+&lt;p&gt;Used to generate absolute urls in &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;, and for generating canonical URLs in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. When developing locally either comment this out or use something like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; so all assets load properly. &lt;em&gt;Don’t include a trailing &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Moon&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://localhost:4000&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;//cooldude.github.io&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;reading_time&quot;&gt;reading_time&lt;/h4&gt;
+
+&lt;p&gt;Set true to show reading time for posts. And set &lt;code class=&quot;highlighter-rouge&quot;&gt;words_per_minute&lt;/code&gt;, default is 200.&lt;/p&gt;
+
+&lt;h4 id=&quot;logo&quot;&gt;logo&lt;/h4&gt;
+&lt;p&gt;Your site’s logo. It will show on homepage and navigation menu. Also used for twitter meta tags.&lt;/p&gt;
+
+&lt;h4 id=&quot;background&quot;&gt;background&lt;/h4&gt;
+&lt;p&gt;Image for background. If you don’t set it, color will be used as a background.&lt;/p&gt;
+
+&lt;h4 id=&quot;google-analytics-and-webmaster-tools&quot;&gt;Google Analytics and Webmaster Tools&lt;/h4&gt;
+
+&lt;p&gt;Google Analytics UA and Webmaster Tool verification tags can be entered in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. For more information on obtaining these meta tags check &lt;a href=&quot;http://support.google.com/webmasters/bin/answer.py?hl=en&amp;amp;answer=35179&quot;&gt;Google Webmaster Tools&lt;/a&gt; and &lt;a href=&quot;https://ssl.bing.com/webmaster/configure/verify/ownership&quot;&gt;Bing Webmaster Tools&lt;/a&gt; support.&lt;/p&gt;
+
+&lt;h4 id=&quot;mathjax&quot;&gt;MathJax&lt;/h4&gt;
+&lt;p&gt;It’s enabled. But if you don’t want to use it. Set it false in  &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;disqus-comments&quot;&gt;Disqus Comments&lt;/h4&gt;
+&lt;p&gt;Set your disqus shortname in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to use comments.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;navigation-links&quot;&gt;Navigation Links&lt;/h3&gt;
+
+&lt;p&gt;To set what links appear in the top navigation edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;. Use the following format to set the URL and title for as many links as you’d like. &lt;em&gt;External links will open in a new window.&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Home&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Blog&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Projects&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/projects/&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/about/&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Moon&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Moon&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;layouts-and-content&quot;&gt;Layouts and Content&lt;/h2&gt;
+
+&lt;p&gt;Moon Theme use &lt;a href=&quot;https://github.com/penibelst/jekyll-compress-html&quot;&gt;Jekyll Compress&lt;/a&gt; to compress html output. But it can cause errors if you use “linenos” (line numbers). I suggest don’t use line numbers for codes, because it won’t look good with this theme, also i didn’t give a proper style for them. If you insist to use line numbers, just remove &lt;code class=&quot;highlighter-rouge&quot;&gt;layout: compress&lt;/code&gt; string from layouts. It will disable compressing.&lt;/p&gt;
+
+&lt;h3 id=&quot;feature-image&quot;&gt;Feature Image&lt;/h3&gt;
+
+&lt;p&gt;You can set feature image per post. Just add &lt;code class=&quot;highlighter-rouge&quot;&gt;feature: some link&lt;/code&gt; to your post’s front matter.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;feature: /assets/img/some-image.png
+or
+feaure: http://example.com/some-image.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This also will be used for twitter card:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509719/61c5751c-01d6-11e6-8c29-ce8ccad149bf.png&quot; alt=&quot;Moon Twitter Card&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;comments&quot;&gt;Comments&lt;/h3&gt;
+&lt;p&gt;To show disqus comments for your post add &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to your post’s front matter.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions?&lt;/h2&gt;
+
+&lt;p&gt;Found a bug or aren’t quite sure how something works? By all means &lt;a href=&quot;https://github.com/TaylanTatli/Moon/issues/new&quot;&gt;file a GitHub Issue&lt;/a&gt;. And if you make something cool with this theme feel free to let me know.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="moon" /><category term="blog" /><category term="about" /><category term="theme" /><summary type="html">Minimal, one column Jekyll theme for your blog.</summary></entry><entry><title type="html">Ramme Jekyll Theme</title><link href="https://taylantatli.github.io/ramme-theme/" rel="alternate" type="text/html" title="Ramme Jekyll Theme" /><published>2016-03-21T00:00:00+00:00</published><updated>2016-03-21T00:00:00+00:00</updated><id>https://taylantatli.github.io/ramme-theme</id><content type="html" xml:base="https://taylantatli.github.io/ramme-theme/">&lt;center&gt;&lt;b&gt;Ramme&lt;/b&gt; is a simple jekyll theme.&lt;/center&gt;
+
+&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;I made this theme after seeing this &lt;a href=&quot;http://spoonm.org/share/rice/01.png&quot;&gt;screenshot&lt;/a&gt;. I took some parts from @mmistakes, like TOC, sample posts. I never tought making a theme from scratch would be this hard. And it’s still WIP.&lt;/p&gt;
+
+&lt;p&gt;I’m not a designer or something, so I’m sure there is a better way to make this theme. But it’s working and looks acceptable for different screen sizes. If something looks extremely ugly and you can’t resist to fix it, just send me a PR. I will be grateful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://taylantatli.me/Ramme/&quot;&gt;Live Demo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/TaylanTatli/Ramme/fork&quot;&gt;Ramme repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
+  &lt;li&gt;Remove sample posts from &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder and add yours.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt; file in &lt;code class=&quot;highlighter-rouge&quot;&gt;about&lt;/code&gt; folder.&lt;/li&gt;
+  &lt;li&gt;Change repo name to &lt;code class=&quot;highlighter-rouge&quot;&gt;YourUserName.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s all.&lt;/p&gt;
+
+&lt;h2 id=&quot;scaffolding&quot;&gt;Scaffolding&lt;/h2&gt;
+&lt;p&gt;How Ramme is organized and what the various files are. All posts, layouts, includes, stylesheets, assets, and whatever else is grouped nicely under the root folder.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;├── 404.html                                    # 404 page
+├── about                                       # About Page
+├── assets
+│   ├── css                                     # Stylesheets
+│   ├── img                                     # Folder for images
+│   │   ├── favicon                             # Folder for favicons
+│   └── js                                      # Folder for scripts
+├── blog                                        # Post list for blog
+├── _config.yml                                 # Configuration file for jekyll
+├── _data
+│   └── navigation.yml                          # Navigation links
+├── _includes
+│   ├── favicon.html                            # Favicon links
+│   ├── footer-home.html                        # Footer for home page
+│   ├── footer.html                             # Footer for other pages
+│   ├── head-home.html                          # Head for home page
+│   ├── head.html                               # Head for other pages
+│   ├── nav-home.html                           # Top navigation for home page
+│   ├── nav.html                                # Top navigation for other pages
+│   ├── open-graph.html                         # Twitter Cards and Open Graph meta data
+│   ├── scripts.html                            # Site scripts
+│   ├── social-links.html                       # Social links to show in homepage
+│   └── toc.html                                # Table of contents to use in some posts
+├── index.html                                  # Homepage
+├── _layouts
+│   ├── home.html                               # Home layout
+│   ├── page.html                               # Page layout
+│   ├── post.html                               # Post layout
+│   ├── post-index.html                         # Post list layout
+│   └── project.html                            # Project list layout
+├── _posts                                      # MarkDown formatted posts
+└── projects                                    # Projects list page&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;site-setup&quot;&gt;Site Setup&lt;/h2&gt;
+&lt;p&gt;A quick checklist of the files you’ll want to edit to get up and running.&lt;/p&gt;
+
+&lt;h3 id=&quot;site-wide-configuration&quot;&gt;Site Wide Configuration&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; is your friend. Open it up and personalize it. Most variables are self explanatory but here’s an explanation of each if needed:&lt;/p&gt;
+
+&lt;h4 id=&quot;title&quot;&gt;title&lt;/h4&gt;
+
+&lt;p&gt;The title of your site… shocker!&lt;/p&gt;
+
+&lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;title: My Awesome Site&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;url&quot;&gt;url&lt;/h4&gt;
+
+&lt;p&gt;Used to generate absolute urls in &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;, and for generating canonical URLs in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. When developing locally either comment this out or use something like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; so all assets load properly. &lt;em&gt;Don’t include a trailing &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://mmistakes.github.io/minimal-mistakes&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://localhost:4000&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;//cooldude.github.io&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;google-analytics-and-webmaster-tools&quot;&gt;Google Analytics and Webmaster Tools&lt;/h4&gt;
+
+&lt;p&gt;Google Analytics UA and Webmaster Tool verification tags can be entered in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. For more information on obtaining these meta tags check &lt;a href=&quot;http://support.google.com/webmasters/bin/answer.py?hl=en&amp;amp;answer=35179&quot;&gt;Google Webmaster Tools&lt;/a&gt; and &lt;a href=&quot;https://ssl.bing.com/webmaster/configure/verify/ownership&quot;&gt;Bing Webmaster Tools&lt;/a&gt; support.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;navigation-links&quot;&gt;Navigation Links&lt;/h3&gt;
+
+&lt;p&gt;To set what links appear in the top navigation edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;. Use the following format to set the URL and title for as many links as you’d like. &lt;em&gt;External links will open in a new window.&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Home&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Blog&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Projects&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/projects/&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/about/&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Ramme&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Ramme&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;layouts-and-content&quot;&gt;Layouts and Content&lt;/h2&gt;
+
+&lt;p&gt;Explanations of the various &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; included with the theme and when to use them.&lt;/p&gt;
+
+&lt;h3 id=&quot;post-and-page&quot;&gt;Post and Page&lt;/h3&gt;
+
+&lt;p&gt;These two layouts are almost similar. Only difference is page layout doesn’t show date under title.&lt;/p&gt;
+
+&lt;h3 id=&quot;post-index-page&quot;&gt;Post Index Page&lt;/h3&gt;
+
+&lt;p&gt;A &lt;a href=&quot;https://TaylanTatli.github.io/blog/&quot;&gt;sample index page&lt;/a&gt; listing all blog posts. The name can be customized to your liking by editing a few references. For example, to change &lt;strong&gt;Blog&lt;/strong&gt; to &lt;strong&gt;Posts&lt;/strong&gt; update the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;: rename the title and URL to the following:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Posts&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/posts/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rename &lt;code class=&quot;highlighter-rouge&quot;&gt;blog/index.md&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;posts/index.md&lt;/code&gt; and update the YAML front matter accordingly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thumbnails-for-og-and-twitter-cards&quot;&gt;Thumbnails for OG and Twitter Cards&lt;/h3&gt;
+
+&lt;p&gt;Site logo is used by &lt;a href=&quot;https://developers.facebook.com/docs/opengraph/&quot;&gt;Open Graph&lt;/a&gt; and &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;Twitter Cards&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Pro-Tip&lt;/strong&gt;: You need to &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;apply for Twitter Cards&lt;/a&gt; before they will begin showing up when links to your site are shared.&lt;/p&gt;
+
+&lt;h3 id=&quot;kramdown-table-of-contents&quot;&gt;Kramdown Table of Contents&lt;/h3&gt;
+
+&lt;p&gt;To include an auto-generated &lt;strong&gt;table of contents&lt;/strong&gt; for posts and pages, add the following &lt;code class=&quot;highlighter-rouge&quot;&gt;_include&lt;/code&gt; before the actual content. &lt;a href=&quot;http://kramdown.rubyforge.org/converter/html.html#toc&quot;&gt;Kramdown will take care of the rest&lt;/a&gt; and convert all headlines into list of links.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% include toc.html %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions?&lt;/h2&gt;
+
+&lt;p&gt;Found a bug or aren’t quite sure how something works? By all means &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/issues/new&quot;&gt;file a GitHub Issue&lt;/a&gt;. And if you make something cool with this theme feel free to let me know.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="ramme" /><category term="blog" /><category term="about" /><category term="theme" /><summary type="html">Simple Jekyll theme for your blog.</summary></entry><entry><title type="html">Learn Japanese</title><link href="https://taylantatli.github.io/learn-japanese/" rel="alternate" type="text/html" title="Learn Japanese" /><published>2016-03-15T00:00:00+00:00</published><updated>2016-03-15T00:00:00+00:00</updated><id>https://taylantatli.github.io/learn-japanese</id><content type="html" xml:base="https://taylantatli.github.io/learn-japanese/">&lt;h2 id=&quot;a&quot;&gt;A&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;aa, ee, un, saa&lt;/strong&gt; = yes (informal)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;abayo&lt;/strong&gt; = casual goodbye, kind of like “see you”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;abunai&lt;/strong&gt; = dangerous, threatening&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;aburi&lt;/strong&gt; = fried tofu&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ahou&lt;/strong&gt; = moron&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ai&lt;/strong&gt; = love&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;aisatsu&lt;/strong&gt; ni = to greet, say hello to&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;aishiteru&lt;/strong&gt; = I love you (romantic love)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;aisuru&lt;/strong&gt; = love, sweetheart, beloved&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;akari&lt;/strong&gt; = light&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;aku&lt;/strong&gt; = evil, wicked, bad, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ana-ki&lt;/strong&gt; = respectful word for “sister”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ane-ue&lt;/strong&gt; = respectful word for “older sister”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ani-ue&lt;/strong&gt; = respectful word for “older brother”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ano hi&lt;/strong&gt; = “this day”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ano hito&lt;/strong&gt; = literally “that person”, exact meaning varies according to context&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ano toki&lt;/strong&gt; = back there, back then, at that time, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;anou&lt;/strong&gt; = “well…”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ara/are&lt;/strong&gt; = oh, or “huh?”; “Ara” is used by women, “Are” by men.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;arigatou gozaimasu&lt;/strong&gt; = thank you very much (arigatou = thanks, thank you)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;arimasen/imasen&lt;/strong&gt; = isn’t (“arimashita” = was, were)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;asagohan&lt;/strong&gt; = breakfast; often shortened to “gohan”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;atama&lt;/strong&gt; = head&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;b&quot;&gt;B&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;baka&lt;/strong&gt; = idiot, fool, etc. (all-purpose insult)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bakaga&lt;/strong&gt; = impossible&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bakemono&lt;/strong&gt; = monster&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bangohan&lt;/strong&gt; = dinner; evening meal&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bento&lt;/strong&gt; = a box lunch&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;betsu ni&lt;/strong&gt; = a multi-purpose negative phrase, usually translated as “nothing” or “not really”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bishonen&lt;/strong&gt; = pretty-boy(I prefer it as that anyways)/ beatiful boy (sometimes actually translated as “pretty”; the word itself is a combination of “bi” = beautiful and “shounen” = boy. Same thing goes for bishoujo)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bishoujo&lt;/strong&gt; = beautiful girl&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bouzu&lt;/strong&gt; = kid&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;budo&lt;/strong&gt; = a set of goals/morals for martial artists; one use seems to be a philosophy that goes with your particular style, such as “protect the weak” or “revitalize people” or something of that sort.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bushido&lt;/strong&gt; = the “warrior’s code”, or code of honor among samurai.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;busu&lt;/strong&gt; = ugly girl (an insult)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;c&quot;&gt;C&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;chibi&lt;/strong&gt; = little&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;chichi-oya&lt;/strong&gt; = formal, respectful word for “father”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;chikyuu&lt;/strong&gt; = Earth (as in the planet)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;chigau&lt;/strong&gt; = different (can also be used as “no” as in “no, it’s something different” or “that’s wrong”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;chisana&lt;/strong&gt; = small (as in “small in size”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;chotto matte&lt;/strong&gt; = “wait a minute!” (“matte” = wait, “chotto” = for a short time)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;clothing nouns&lt;/strong&gt;: kimono, yukata (summer kimono), obi (sash), haori (coat), hanten (jacket), hakama (skirt pants), tabi (split-toed socks), gi (short men’s kimono), zori (sandals for kimono), geta (wooden sandals), manto (cloak)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;d&quot;&gt;D&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;daga&lt;/strong&gt; = however/but&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;daijoubu&lt;/strong&gt; = don’t worry, I’m okay, I’ll be allright, etc. “daijouka” is “are you okay?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;daikon&lt;/strong&gt; = large Japanese radish&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;daimyo&lt;/strong&gt; = fuedal lord; these people were the next rank above samurai in Japan’s fuedal era and were the major landowners.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;daisho&lt;/strong&gt; = traditional pair of swords carried by samurai, consisting of a katana (long sword) and wakizashi (short sword)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;daisuki desu/da&lt;/strong&gt; = I love you. This has more emphasis than “suki desu/da” which means “I love you/I like you” (boyfriend/girlfriend type love, not romantic marraige-type love). “daisuki” can also describe your favorite things.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dakara&lt;/strong&gt; = so, therefore&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;damare&lt;/strong&gt; = the command form of “be quiet”, often translates as “shut up!” or “silence!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dame&lt;/strong&gt; = no (as in “don’t do that!”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dare&lt;/strong&gt; = who&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;de gozaru&lt;/strong&gt; = a “polite phrase” that can be added to the ends of sentences. Only Himura Kenshin of Rurouni Kenshin uses this. It’s a very outdated, archaic form of the polite “de gozaimasu” and would almost be like someone walking up to you and saying stuff like “thou art” and other Shakespearan-era English. You know what it means, but you would never use it in regular converstion. Kenshin’s just odd -_-;; but cool^^&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;desu&lt;/strong&gt; = this has many uses in speech, mostly as a polite tag. It’s derived from “de gozaimasu” and is somewhat less polite.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;demo/datte&lt;/strong&gt; = but&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;densetsu&lt;/strong&gt; = legend, legendary&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dewa&lt;/strong&gt; = an interjection, has various meanings including “Then…”,”Well…”,”Now…” etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dim sum&lt;/strong&gt; = pork buns (a Chinese dish)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;do-iu koto da&lt;/strong&gt; = “what do you mean?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dojo&lt;/strong&gt; = school (as in a training hall)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;doki doki&lt;/strong&gt; = a phrase meaning “sometimes/from time to time”, also refers to a heartbeat&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;doko&lt;/strong&gt; = where&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;domo&lt;/strong&gt; = thank you; this is a short version of the full (i.e. very formal) version of “thank you very much” which is “domo arigatou gozaimasu”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;doozo&lt;/strong&gt; = here you go, here you are (giving someone something)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;doushite&lt;/strong&gt; = why/why not?/how come, etc. “doushita” can mean “what’s wrong?”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dou&lt;/strong&gt; = how; “dou da?” is “how about it?”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;e&quot;&gt;E&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;eeto…&lt;/strong&gt; = like saying “um…” or “erm…”, that sort of thing&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;expletives&lt;/strong&gt;: mou, che, chikuso, kuso, shimatta (all meaning darn, crap, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;f&quot;&gt;F&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;fuku&lt;/strong&gt; = uniform&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;fureru&lt;/strong&gt; = touch&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;furo&lt;/strong&gt; = bath&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;futon&lt;/strong&gt; = the thin, soft mattresses Japanese sleep on&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;fushigi&lt;/strong&gt; = mystery, wonder, mysterious, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;g&quot;&gt;G&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;gaijin&lt;/strong&gt; = refers to any foreigner&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gakkou&lt;/strong&gt; = highschool&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gambatte ne!&lt;/strong&gt; = do your best!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;genki da&lt;/strong&gt; = cheer up, be well, take care, etc. (“genki” literally means energy)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gochisousama!&lt;/strong&gt; = I’m finished! (with a meal)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gomen nasai&lt;/strong&gt; = I’m sorry&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;h&quot;&gt;H&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;haha-oya&lt;/strong&gt; = respectful word for “mother”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hai&lt;/strong&gt; = yes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hajime&lt;/strong&gt; = beginning, start, the first time, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hajimemashite&lt;/strong&gt; = I’m pleased to meet you&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hakubaikou&lt;/strong&gt; = white plum (the scent and the flower)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;han&lt;/strong&gt; = half; examples are “hanbun” (“half of me” or “part of me”) and “hanyou” (“half-demon”), “Han” also refers to the cutting edge of a sword.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hanase&lt;/strong&gt; = command form of “to release”, often translates as “release me!” or “let me go!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hanashi&lt;/strong&gt; = as a noun it means “news, account, story”, etc. It is also a form of the verb “to talk”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hayaku&lt;/strong&gt; = means “faster”, also translates as “hurry up” or “quickly” when used as a command.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hen&lt;/strong&gt; = weird or strange&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;henshin&lt;/strong&gt; = transform or change&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hidoi&lt;/strong&gt; = mean, cruel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hikari&lt;/strong&gt; = light, energy (glare, gleam, ray)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hime&lt;/strong&gt; = princess&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;himitsu&lt;/strong&gt; = secret&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hito&lt;/strong&gt; = man, person&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hitokiri&lt;/strong&gt; = assassin (“hito”= man and “hito-kire” means “to slice”, so “hitokiri” literally means “Man-Slicer” or “ManSlayer”, hence why it’s an appropriate job title for an assassin ;)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hitomi&lt;/strong&gt; = to see, eye&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hitotsu no&lt;/strong&gt; = a part of something (a, one, etc.)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;honorifics&lt;/strong&gt; = the Japanese “honorific” has no English equivalent. They are a way of showing your status in relation to another person and so, depending on how they are used, they can be either respectful or insulting. In rank from highest respect to lowest they are: -sama, -san, -dono, -kun, -chan. They are used as suffixes attached to the ends of words. There has been some debate amongst myself and others about the exact usage of “-dono” and it seems to be inconsistent from anime to anime. It’s an older honorific and seems to imply that the speaker is in the service of another person…but this isn’t always true in context. In any event, it actually seems to be equal in rank to “-san”, its usage is just on a case-by-case basis.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;honto&lt;/strong&gt; = really (“honto desu ka” = “really?”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;houshi&lt;/strong&gt; = priest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;i&quot;&gt;I&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ichiban&lt;/strong&gt; = first, the best, favorite, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ie&lt;/strong&gt; = house&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ii&lt;/strong&gt; = good, nice; the phrase “ii ne/na” means “it’s all right”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;iie, iya&lt;/strong&gt; = no&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;iinazuke&lt;/strong&gt; = fiancee&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ikari&lt;/strong&gt; = fury&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ikenai&lt;/strong&gt; = oh no!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;iku&lt;/strong&gt; = “to go”, often you hear it as “ikuzo” meaning “let’s go”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ima&lt;/strong&gt; = now&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;imouto&lt;/strong&gt; = younger sister&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;inochi&lt;/strong&gt; = life&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;inu&lt;/strong&gt; = dog&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;irrashimase!&lt;/strong&gt; = welcome! (used in restaurants to greet customers)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;itachi&lt;/strong&gt; = weasel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;itadakimasu&lt;/strong&gt; = let’s eat!, here’s to good food, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ite&lt;/strong&gt; = ouch, ow&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;itte kimasu&lt;/strong&gt; = “I’m taking off!” or “I’m leaving now!” ; “kimasu” is a casual form of the verb “to leave”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;istumo&lt;/strong&gt; = always, constantly, ever, etc. Just “itsu” is “when”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;j&quot;&gt;J&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ja ne/ja na&lt;/strong&gt; = see you later/see you then&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ja matta/mattana&lt;/strong&gt; = casual “goodbye”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;-janai/-nai&lt;/strong&gt; = a suffix, makes a word negative&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;janken&lt;/strong&gt; = the Japanese version of “rock, paper, scissors”, the phrase is “Janken, Janken, Pon!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;jibun&lt;/strong&gt; = self, yourself/himself/herself&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;jikai&lt;/strong&gt; = next time&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;jinchuu&lt;/strong&gt; = Earthly justice (is also sometimes translated as “revenge”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;jitsu wa&lt;/strong&gt; = “actually…”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;jou-chan&lt;/strong&gt; = “little missy”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;joudan janai&lt;/strong&gt; =”this is no joke!” or “you’ve got to be kidding!”, etc. “Joudan janai wa” is like “are you joking?” and such.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;k&quot;&gt;K&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;kakatte iru&lt;/strong&gt; = depend&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kakkoii!&lt;/strong&gt; = “cool!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kami&lt;/strong&gt; = some common meanings for this word are “spirit” (“Kamisama” is God), “hair” and “paper”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kamiya&lt;/strong&gt; = flower&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kanai&lt;/strong&gt; = wife&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kanji&lt;/strong&gt; = perception, feeling. Also refers to the Chinese characters used in Japanese writing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kanojo&lt;/strong&gt; = girlfriend&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kao&lt;/strong&gt; = face&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kaoru&lt;/strong&gt; = scent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kare/kareshi&lt;/strong&gt; = literally “he”, it’s also used to refer to a boyfriend&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kawaii/kawaiikune&lt;/strong&gt; = cute/uncute&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kaze&lt;/strong&gt; = wind&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;keisatsu&lt;/strong&gt; = police&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ken&lt;/strong&gt; = sword; there are many words for sword according to their type (usually determined by length). Examples: wattou (long battle katana, usually greater than 30 inches in length), katana (generally 25-30 inches long), wakizashi (short sword), kodachi (short sword between a wakizashi and katana in length), tanto (long dagger), kunai (short throwing knives), sakabatou (a fictional reverse-bladed sword), zanbatou (giant sword used to cut down both horse and rider), bokken (wooden sword), and shinai (bamboo practice sword). The sheath or scabbard for a sword is called a “saya”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kenjutsu&lt;/strong&gt; = swordsmanship&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kenkaku&lt;/strong&gt; = swordsman&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kenshin&lt;/strong&gt; = devotion, dedication; in kanji it reads “Heart of Sword”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;keredo/kedo&lt;/strong&gt; = though, although, but&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ki/chi&lt;/strong&gt; = the Asian concept of a life force or life spirit; it’s mentioned a lot in martial arts anime. “Ken-ki” is used in Rurouni Kenshin in reference to swords, and in Inuyasha “youki” is used to describe demon energy.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kimochi&lt;/strong&gt; = feeling, emotion, pleasure&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kiotsukete&lt;/strong&gt; = be careful&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kitsune&lt;/strong&gt; = fox&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kirei&lt;/strong&gt; = pretty, lovely (can also be used as an affectionate nickname for someone)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kizu&lt;/strong&gt; = wound (physical cut)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kodomo&lt;/strong&gt; = child&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;koekeishiya&lt;/strong&gt; = successor&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;koishii, koibito&lt;/strong&gt; = beloved, lover, sweetheart, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;koi&lt;/strong&gt; = love (also a kind of goldfish). “Koi” is one of those Japanese homonym words that has about a million different meanings, so you hear it everywhere. The verb “kuru” which means “to come” is often used in a conjugated form which is “koi!” meaning “come over here” or “come on”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;koko&lt;/strong&gt; = here (koko wa = “where am I?”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kokoro&lt;/strong&gt; = heart, mind, soul, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;konbanwa&lt;/strong&gt; = good evening&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;koneko&lt;/strong&gt; = kitten&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;konnichiwa&lt;/strong&gt; = hello, good afternoon&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kono&lt;/strong&gt; = this, however it has many meanings I think kore wa = this is, that’s&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;korosu&lt;/strong&gt; = kill&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kotaeru&lt;/strong&gt; = “to answer”, you’ll hear it in various forms in anime, often as the command “answer me!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;koto wa&lt;/strong&gt; = thing, what, affair/matter&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kotowaru&lt;/strong&gt; = decline (to refuse do something, such as fight)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kowai&lt;/strong&gt; = scared, fear, afraid&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kudasai&lt;/strong&gt; = please&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;m&quot;&gt;M&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;maa, maa&lt;/strong&gt; = “now, now” ; a phrase used to placate someone&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;maa na&lt;/strong&gt; = I guess&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;maboroshi&lt;/strong&gt; = means “illusion”, as in a dream or illusion constructed by someone; figuratively it means “mystic” or “mystical”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;machigainai&lt;/strong&gt; = there’s no mistake! (like when you recognize someone, or verify information)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mamoru&lt;/strong&gt; = protect&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;masaka&lt;/strong&gt; = of course not, impossible, it can’t be, not really, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;massushiro&lt;/strong&gt; = a phrase, means “clean and white”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mattaku&lt;/strong&gt; = sheesh, yeesh, jeez, “oh for heaven’s sake”, etc. General expression of annoyance.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;miko&lt;/strong&gt; = priestess&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;minna&lt;/strong&gt; = everyone&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;miru&lt;/strong&gt; = to see&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;miso&lt;/strong&gt; = Japanese soy-based soup&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mizu&lt;/strong&gt; = water&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mochi&lt;/strong&gt; = a Japanese dessert: rice dough (kind of marshmallow in texture) stuffed with ohagi (sweet bean paste)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;moko-dono&lt;/strong&gt; = son-in-law&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mon&lt;/strong&gt; = family crest, often seen on formal kimono.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mononoke&lt;/strong&gt; = vengeful spirit&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mooto&lt;/strong&gt; = increases the amount of something. An example is “hayaku, hayaku, mooto hayaku” (a phrase from a “Spirited Away” image song) which means “faster, faster and faster” but “mooto” doesn’t mean “and”; it’s simply increasing the amount of “hayaku”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mori&lt;/strong&gt; = forest&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;moshi moshi&lt;/strong&gt; = hello (on the phone)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mou ii&lt;/strong&gt; = a phrase, means “no more” or “that’s enough!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mune&lt;/strong&gt; = the dull edge of a Japanese sword. It also means “heart”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;musume&lt;/strong&gt; = daughter or young woman (in Rurouni Kenshin “itachi musume” = “weasel girl” or literally the daughter of a weasel) and can be an insult in context&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;myuun&lt;/strong&gt; = the sound a cat makes; cats also make a “nyaa nyaa” sound.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;n&quot;&gt;N&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;na ha&lt;/strong&gt; = a very impolite and abbreviated way to ask someone their name. “O-namae wa” is standard-polite; if you want to be even more formal you would use “O-namae wa nan to iimasu ka” or “O-namae wa nan to osshaimasu ka” (the latter is very polite ^^)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nakanaide&lt;/strong&gt; = don’t cry (“nakanaide kudasai” = please don’t cry)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nanda/nande&lt;/strong&gt; = why, what. “nanda to” is an extreme version of “what”, sort of like “WHAT?!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nandeste&lt;/strong&gt; = what did you say?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nani&lt;/strong&gt; = what&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nani yatten no&lt;/strong&gt; = what are you doing?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nani-mo&lt;/strong&gt; = nothing&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;naruhodo&lt;/strong&gt; = I see (as in “I understand”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;naze&lt;/strong&gt; = why (an extreme why, as in “why did you do that?!”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ne&lt;/strong&gt; = right (as in “correct”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;neko&lt;/strong&gt; = cat&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nezumi&lt;/strong&gt; = mouse or rat&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nibun&lt;/strong&gt; = half&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nigeru&lt;/strong&gt; = run&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nihon, nippon/nihongo&lt;/strong&gt; = Japan/Japanese (language)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nikuma&lt;/strong&gt; = pork buns&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ningen&lt;/strong&gt; = human&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nidoto&lt;/strong&gt; = never (as in “I’ll never do that again”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;no&lt;/strong&gt; = serves several purposes, often as a particle, but also marks a possessive (“Watashi no inu” would be “My dog” for instance)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;o&quot;&gt;O&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;obasan&lt;/strong&gt; = aunt&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;obaasan&lt;/strong&gt; = grandmother. It’s important to note that this word is very different from “obasan” above (which only has one “a” in romanji or a short “a” sound in speech). The “a” sound in “obaasan” is held twice as long.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;obaba&lt;/strong&gt; = great-grandmother or a fairly rude way of saying “old woman”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;obou&lt;/strong&gt; = monk&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;oden&lt;/strong&gt; = a mixed stew&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ohagi&lt;/strong&gt; = sweet bean paste&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;oi&lt;/strong&gt; = “hey!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;oishii&lt;/strong&gt; = delicious, tasty&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ojisan&lt;/strong&gt; = uncle, or “mister” when used by a non-relative. The Japanese have the habit of sometimes referring to strangers or aquaintances with familial terms. This is one such example.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ojiisan&lt;/strong&gt; = grandfather. Just as with “obasan” it’s important to note the difference in spelling. You hold the “i” sound longer when you want to say “grandfather” as opposed to “uncle”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;okaa&lt;/strong&gt; = mother. In speech this word is almost always used with an honorific. “Okaasama” is very respectful, “Okaasan” is general respect (this is the usual form you hear), “Okaachan” is informal and is sort of like saying “mommy”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;okari nasai&lt;/strong&gt; = welcome home&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;okashira&lt;/strong&gt; = commander or boss&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;okonomiyaki&lt;/strong&gt; = Japanese “pizza” (it’s similar to a pancake with sauce and other toppings added)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ohayou gozaimasu&lt;/strong&gt; = good morning (just “ohayou” is like “morning!”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ohisashiburi&lt;/strong&gt; = it’s been a long time or “long time no see”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;onna&lt;/strong&gt; = woman&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;onegai&lt;/strong&gt; = please (the full version is “onegai-shimasu” when you’re being really polite; if used like a command I’ve seen it translated as “I beg of you!”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;oneesan&lt;/strong&gt; = older sister&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;oni =&lt;/strong&gt; ogre or demon&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;oniichan&lt;/strong&gt; = older brother (-chan is informal, to be polite you’d say oniisan)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;onigirii&lt;/strong&gt; = rice ball&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;onsen&lt;/strong&gt; = hot spring&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ooji&lt;/strong&gt; = prince&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;osuwari&lt;/strong&gt; = the command form of “to sit” ; actually this is technically a dog command…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;otaku&lt;/strong&gt; = in Japan this words simply refers to a fan of anything, in America it’s come to describe an fan of anime specifically.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;otoko&lt;/strong&gt; = man&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;otou&lt;/strong&gt; = father. In speech, just as with “okaa”, this word is almost always used with an honorific. “Otousama” is very respectful, “Otousan” is general respect (this is the usual form you hear), “Otouchan” is informal and is sort of like saying “daddy”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;otouto&lt;/strong&gt; = younger brother&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;otto&lt;/strong&gt; = husband&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ougi&lt;/strong&gt; = succession technique for a sword or martial arts school, literally means “deep act”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;owari&lt;/strong&gt; = “the end”, as in the end of a show or story&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;oyaji&lt;/strong&gt; = “old man”, as in your dad&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;oyasumi nasai&lt;/strong&gt; = good night&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;p&quot;&gt;P&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;pacu&lt;/strong&gt; = the sound a fish makes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;pan&lt;/strong&gt; = bread&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;particle&lt;/strong&gt;: the Japanese “particle” refers to the short syllables (no, to, ni, mo, ha, ya, yo, wa, na, etc.) sprinked in Japanese sentences. The meaning and uses of particles are many and varied. They most often serve as object markers, identifying the subject of the sentence (first person pronouns are nearly always followed by a particle. Examples would be “watashi no”, “sessha mo”, etc.). They also serve a function similar to English preposition “filler” words such as: of, and, the, from, to, etc. To understand particles you need a Japanese grammar dictionary.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;piyo&lt;/strong&gt; = the sound a bird makes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;r&quot;&gt;R&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;rei&lt;/strong&gt; = soul&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;rounin&lt;/strong&gt; = masterless samurai&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;rurouni&lt;/strong&gt; = vagabond or wanderer (it’s important to note that this word was made up by the creator of Rurouni Kenshin, combining “rounin” (masterless samurai) and “rurou” (vagabond). It doesn’t actually exist in the Japanese language)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ryu&lt;/strong&gt; = school or style (for example, a sword style). It also means “dragon”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;s&quot;&gt;S&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;sakura&lt;/strong&gt; = cherry blossom&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;samurai&lt;/strong&gt; = Japan’s ancient warrior class (one step above peasants), officially abolished at the start of the Meji era (1868)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sasuga ha&lt;/strong&gt; = “nothing less from”, as when someone lives up to his/her reputation or does something cool that you expected&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sayounara&lt;/strong&gt; = farewell (as in “goodbye forever” or for a long time)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;seiyuu&lt;/strong&gt; = voice actor/actress&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sen&lt;/strong&gt; = a breakdown of Japanese currency&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sensei, shishou&lt;/strong&gt; = teacher, master&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;senshi&lt;/strong&gt; = soldier&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sempai&lt;/strong&gt; = upperclassmen, predecessor; essentially someone who has studied or been there before you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shakkin&lt;/strong&gt; = debt (money)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shihondai&lt;/strong&gt; = assistant master&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shikashi&lt;/strong&gt; = however/but&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shinde&lt;/strong&gt; = command form of “shinu”, which is the verb “to die”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shinji&lt;/strong&gt; = believe, can also mean “hope”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shinjitsu&lt;/strong&gt; = truth&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shinpai&lt;/strong&gt; = worry&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shogun&lt;/strong&gt; = warlord&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shoji&lt;/strong&gt; = the sliding rice paper doors in Japanese houses&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shounen&lt;/strong&gt; = boy&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shoujo&lt;/strong&gt; = girl&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sonna&lt;/strong&gt; = such&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;soo&lt;/strong&gt; = so (the one word that’s the same in Japanese and English)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sore&lt;/strong&gt; = that&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;soredemo&lt;/strong&gt; = however/but&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;soro soro&lt;/strong&gt; = soon, now&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;soshite&lt;/strong&gt; = and&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sou ka&lt;/strong&gt; = I see or “do I?” (the ka indicates a question)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sou na&lt;/strong&gt; = no, as in “no, that can’t be!” or “no way!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sou desu ne&lt;/strong&gt; = yes it is; “sou sou” can mean “oh yeah”, and “sou” on its own can also mean “yes”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;so-yo&lt;/strong&gt; = that’s true, that’s right! (usually pronounced “soi-you”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;subete&lt;/strong&gt; = all, everything&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sugoi!&lt;/strong&gt; = awesome!, cool!, wow!, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;suhama&lt;/strong&gt; = rice cake&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sukoshi&lt;/strong&gt; = literally “to a small degree”; usual translations: a bit, few, slight, slightly, little, some, any&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sumanu/sumanai/sumimasen&lt;/strong&gt; = I’m sorry (formal)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;suru&lt;/strong&gt; = to do; “nani o suru?” = “what are you doing?”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;t&quot;&gt;T&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;tabun&lt;/strong&gt; = probably&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;taberu&lt;/strong&gt; = to eat (verb)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;-tachi&lt;/strong&gt; = when added to things, makes them plural (“hito-tachi” = “folk, people” for example). When used with first and second person pronouns -tachi can make words that mean we/our and “you guys”. Ore/Boku/Watashi-tachi all mean “we/our” and “Omeatachi” means “you guys”, essentially referring to a group of people (see notes on pronoun use above).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tadaima&lt;/strong&gt; = I’m home, I’m back, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;taichou&lt;/strong&gt; = captain, commander&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;taisetsu na&lt;/strong&gt; = important, beloved (to/of someone)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tamago&lt;/strong&gt; = egg&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tamashi&lt;/strong&gt; = soul&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tanuki&lt;/strong&gt; = raccoon (the Japanese raccoon dog, actually)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;taousu&lt;/strong&gt; = defeat (in battle)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tasukete&lt;/strong&gt; = help&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tataku&lt;/strong&gt; = to hit, beat, or knock. Variations are “tatakau” (battle or fight) and “tatakai” (this is the command form of “to fight”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tatami&lt;/strong&gt; = the mats that cover Japanese floors&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tatta&lt;/strong&gt; = conjugated form (it means “I/ You/ He.. stood”) of the verb “to stand up” which is “tatsu”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tattaka&lt;/strong&gt; = fight/battle&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tempura&lt;/strong&gt; = deep-fried vegetables&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tenchuu&lt;/strong&gt; = divine or Heavenly justice&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tenshi&lt;/strong&gt; = angel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;to&lt;/strong&gt; = means “and” when linking two words&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tori&lt;/strong&gt; = bird, also refers to a chicken (tori no atama = “chicken head”; from Rurouni Kenshin)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tsubasa&lt;/strong&gt; = wings&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tsuee&lt;/strong&gt; = strong, as in “he’s strong”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tsugi&lt;/strong&gt; = next&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tsuki&lt;/strong&gt; = moon (as in the satellite)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tsuzuku&lt;/strong&gt; = to be continued&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tsuyoi&lt;/strong&gt; = strong, powerful&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;u&quot;&gt;U&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;udon&lt;/strong&gt; = a kind of Japanese noodle&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;unmei&lt;/strong&gt; = fate or destiny&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;usagi&lt;/strong&gt; = rabbit&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;urasai&lt;/strong&gt;! = “shut up!” or just “be quiet”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ureshii&lt;/strong&gt; = happy&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;uso&lt;/strong&gt; = lie&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;w&quot;&gt;W&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;wai!&lt;/strong&gt; = yay!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;wakaru/wakatta/wakarimashita&lt;/strong&gt; = various commonly used forms of “to understand”, they mean “I understand, I know, I get it”, etc. When talking to a person who is higher ranked than you (or if you just want to be very polite) you say “kashikomarimashita”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;wakaranai&lt;/strong&gt; = negative form of the verb; means “I don’t understand, I don’t get it”, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;wan&lt;/strong&gt; = the sound a dog makes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;writing&lt;/strong&gt;: The Japanese written system is very complicated and consists of three separate scripts that are used together: Hiragana, Katakana, and Kanji.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hiragana&lt;/strong&gt; is the Japanese native script and consists of 46 basic characters. Hiragana is a syllabary rather than an alphabet (ka, ki, ko, ku, etc.) so English words cannot be neatly transcribed into Hiragana or vice versa. “Romanji” is the Japanese term for native words written in the English alphabet. Several systems exists for transcribing Japanese words into English script, the most common of which is the Hepburn system.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Katakana&lt;/strong&gt; is also 46 characters and has the same sounds as Hiragana, but is used primarily for writing foreign words and for emphasis (similar to the way we use bold or italic characters).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kanji&lt;/strong&gt; are Chinese characters that have been adapted for the Japanese language. There are literally thousands of different Kanji, and much of Japanese is written in them. Kanji are often used for proper nouns (such as names and places) and also distinguish between homonyms (which are very common in Japanese).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;y&quot;&gt;Y&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;yahari/yappari&lt;/strong&gt; = literally “as expected”; usally translated as: as I thought, just as I suspected, you really are, can it be that you’re?, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yakisoba&lt;/strong&gt; = pan-fried noodles (“soba” are buckwheat noodles)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yakusoku&lt;/strong&gt; = promise&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yamete/yamero&lt;/strong&gt; = stop (“yamete” is feminine, “yamero” is masculine)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yare yare&lt;/strong&gt; = oh well, “oh brother”, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yatta!&lt;/strong&gt; = he/she/I did it!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yatto&lt;/strong&gt; = finally&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yen&lt;/strong&gt; = Japanese money; although the exact exchange rate varies day by day&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yo&lt;/strong&gt; = just as in English, this is a really casual greeting. As a particle in Japanese speech, “yo” adds emphasis to a word&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yokai&lt;/strong&gt; = “roger!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yokatta&lt;/strong&gt; = an expression of relief, usually translates as “I’m so glad” or “thank goodness!”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yoshi!&lt;/strong&gt; = all right, let’s go, let’s do it!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;youma/youkai&lt;/strong&gt; = demon&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yowai&lt;/strong&gt; = weak&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yume&lt;/strong&gt; = dream&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yuurei&lt;/strong&gt; = ghost&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yuki&lt;/strong&gt; = snow&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yurusenai!&lt;/strong&gt; = “I won’t allow/permit it!”, “I can’t forgive this!”, etc. “Yurusu” means to forgive, pardon, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;z&quot;&gt;Z&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;zettai!&lt;/strong&gt; = absolutely!, definitely! This phrase can be translated many ways actually, and can also be used as empahsis to make another word seem stronger.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Source: &lt;a href=&quot;http://pastebin.com/qr4z4yRA&quot;&gt;http://pastebin.com/qr4z4yRA&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="japanese" /><category term="rômaji" /><category term="english" /><category term="japonca" /><category term="kelimeler" /><summary type="html">Animelerde sıkça kullanılan japonca kelimelerin İngilizce karşılıkları.</summary></entry><entry><title type="html">Vim Notları</title><link href="https://taylantatli.github.io/vim-notlari/" rel="alternate" type="text/html" title="Vim Notları" /><published>2016-03-14T00:00:00+00:00</published><updated>2016-03-14T00:00:00+00:00</updated><id>https://taylantatli.github.io/vim-notlari</id><content type="html" xml:base="https://taylantatli.github.io/vim-notlari/">&lt;h2 id=&quot;çoklu-satırların-başına-kelime-ekleme&quot;&gt;Çoklu satırların başına kelime ekleme&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Başlanacak satıra geçilir&lt;/li&gt;
+  &lt;li&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;v&lt;/kbd&gt; ile Visual moda girilir&lt;/li&gt;
+  &lt;li&gt;İstenilen satırlar seçilir &lt;strong&gt;(&lt;kbd&gt;j&lt;/kbd&gt;/&lt;kbd&gt;k&lt;/kbd&gt;, &lt;kbd&gt;▲&lt;/kbd&gt;/&lt;kbd&gt;▼&lt;/kbd&gt; veya [satır numarası]&lt;kbd&gt;G&lt;/kbd&gt; kombinasyonu ile satıra atlayarak)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;kbd&gt;I&lt;/kbd&gt;’ ya basılır &lt;em&gt;(büyük harf)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Eklenecek kelime/karakter(ler) girilir&lt;/li&gt;
+  &lt;li&gt;&lt;kbd&gt;ESC&lt;/kbd&gt; tuşu ile sonlandırılır&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;çoklu-satırların-sonuna-kelime-ekleme&quot;&gt;Çoklu satırların sonuna kelime ekleme&lt;/h2&gt;
+
+&lt;h3 id=&quot;vim-üzerinden&quot;&gt;Vim üzerinden&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;:%norm A kelime    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Açıklaması:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; %        &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; Her satırda   
+ norm     &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; sıradaki komutu çalıştır   
+ A kelime &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; Satır sonuna &lt;span class=&quot;s1&quot;&gt;'kelime'&lt;/span&gt; ekle   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;terminal-üzerinden&quot;&gt;Terminal üzerinden&lt;/h3&gt;
+&lt;p&gt;Terminal üzerinden dosyanın sonunda kelime eklemek için aşağıdaki kullanılır.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;-i &quot;\$aTEXTTOEND&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;satır-çoğaltma&quot;&gt;Satır Çoğaltma&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Satırı kopyalamak için &lt;kbd&gt;y&lt;/kbd&gt;&lt;kbd&gt;y&lt;/kbd&gt; veya &lt;kbd&gt;Y&lt;/kbd&gt;  &lt;br /&gt;
+ya da satırı silmek için &lt;kbd&gt;d&lt;/kbd&gt;&lt;kbd&gt;d&lt;/kbd&gt; veya &lt;kbd&gt;D&lt;/kbd&gt;&lt;/li&gt;
+  &lt;li&gt;Kopyalanan ya da silinen satırı mevcut satırın altına yapıştırmak için &lt;kbd&gt;p&lt;/kbd&gt;  &lt;br /&gt;
+veya mevcut satırın üstüne yapıştırmak için &lt;kbd&gt;P&lt;/kbd&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="vim" /><category term="notları" /><category term="notes" /><summary type="html">Vim hakkında tuttuğum notlar.</summary></entry><entry><title type="html">Daisy: Pelican Theme</title><link href="https://taylantatli.github.io/daisy-pelican-theme/" rel="alternate" type="text/html" title="Daisy: Pelican Theme" /><published>2016-02-27T00:00:00+00:00</published><updated>2016-02-27T00:00:00+00:00</updated><id>https://taylantatli.github.io/daisy-pelican-theme</id><content type="html" xml:base="https://taylantatli.github.io/daisy-pelican-theme/">&lt;p&gt;Pelican statik blog oluşturucu için yapmış olduğum &lt;a href=&quot;http://patarakirby.aristotheme.com/&quot;&gt;Patara&lt;/a&gt; tabanlı minimal bir tema.&lt;/p&gt;
+
+&lt;p&gt;Örnek yazılar &lt;a href=&quot;https://github.com/mmistakes/&quot;&gt;mmistakes&lt;/a&gt; sitesinden alındı. Depo’ya örnek pelicanconf.py dosyasını ekledim, gerekli düzenlemeleri yaparak hızlıca kendi sitenizi oluşturabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;Temaya &lt;a href=&quot;https://github.com/TaylanTatli/Daisy-Pelican-Theme&quot;&gt;buradan&lt;/a&gt;, örnek siteye de &lt;a href=&quot;http://taylantatli.me/Daisy-Pelican-Theme/&quot;&gt;buradan&lt;/a&gt; ulaşabilirsiniz.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Resimleri sağa hizalamak için:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PullRight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;resim/linki/buraya.png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Responsive videolar eklemek için, &lt;em&gt;class=’embed-container’&lt;/em&gt; kullanın:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'embed-container'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'https://www.youtube.com/embed//lrDXX3NiVnk'&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'0'&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Muhtemelen, SITENAME ve SITESUBTITLE kısımlarını düzenlediğinizde düzgün görünmeyecek. Düzeltmek için aşağıdakileri kendinize göre düzenleyin.:&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;(letter-spacing ve text-indent aynı değerde olmalı.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.header&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.logo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;letter-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2.45rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2.45rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.header&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.logo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h6&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;letter-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;fotoğraflar&quot;&gt;Fotoğraflar&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;(Harici bir site aracılığıyla çektiğim için stiller tam düzgün görünmüyor.)&lt;/em&gt;  &lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png&quot; alt=&quot;Preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-2.png&quot; alt=&quot;Preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-3.png&quot; alt=&quot;Preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-4.png&quot; alt=&quot;Preview&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="daisy" /><category term="pelican" /><category term="tema" /><category term="static" /><category term="blog" /><summary type="html">Pelican statik blog oluşturucu için yapmış olduğum Patara tabanlı minimal bir tema.</summary></entry><entry><title type="html">Pacman Progressbar’ı Değiştirme</title><link href="https://taylantatli.github.io/pacman-progressbar/" rel="alternate" type="text/html" title="Pacman Progressbar'ı Değiştirme" /><published>2016-02-27T00:00:00+00:00</published><updated>2016-02-27T00:00:00+00:00</updated><id>https://taylantatli.github.io/pacman-progressbar</id><content type="html" xml:base="https://taylantatli.github.io/pacman-progressbar/">&lt;p&gt;Biraz farklılık olsun diye, daha doğrusu canım sıkıldığı için pacman’in progressbar’ını değiştirmeye çalıştım. Açıkcası herhangi bir programlama dili bilmediğim için bu tür ufak değişiklikler yapabilmek mutlu ediyor beni. Eğer sizde aynısını yapmak isterseniz ya da daha farklı karakterlerle daha farklı bir progressbar isterseniz alttaki dosyaları kullanabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/13335685/f3c1792a-dc1a-11e5-8f7a-c47604b81960.png&quot; alt=&quot;pacman-progressbar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pacman’i kaynaktan derlemeniz gerekiyor bunun için. &lt;strong&gt;callback.c&lt;/strong&gt; dosyasında aşağıdaki değişiklikleri yaparak derleyin. İster patch dosyası ile patchleyin ya da bir aşağısındaki callback.c dosyasını orjinali ile değiştirin.&lt;/p&gt;
+
+&lt;p&gt;Ben bu değişiklikleri &lt;strong&gt;pacman 5.0.1&lt;/strong&gt; üzerinde gerçekleştirdim.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/e813c2560b0f1ecc9f5d.js?file=pacman.patch&quot;&gt; &lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/e813c2560b0f1ecc9f5d.js?file=callback.c&quot;&gt; &lt;/script&gt;</content><author><name></name></author><category term="arch" /><category term="pacman" /><category term="progressbar" /><summary type="html">Kaynak kodlarını düzenleyerek Pacman'in progressbarını değiştirme.</summary></entry><entry><title type="html">İzlediğim Animeler</title><link href="https://taylantatli.github.io/izledigim-animeler/" rel="alternate" type="text/html" title="İzlediğim Animeler" /><published>2016-02-25T00:00:00+00:00</published><updated>2016-02-25T00:00:00+00:00</updated><id>https://taylantatli.github.io/izledigim-animeler</id><content type="html" xml:base="https://taylantatli.github.io/izledigim-animeler/">&lt;table&gt;&lt;tr&gt;&lt;th&gt;Anime&lt;/th&gt;&lt;th&gt;Score&lt;/th&gt;&lt;th&gt;Status&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Gintama&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Watching&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Naruto: Shippuuden&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Watching&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Nichijou&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Watching&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ushio to Tora (TV) 2nd Season&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Watching&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Naruto&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Elfen Lied&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Midori no Hibi&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fate/stay night&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Death Note&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Code Geass: Hangyaku no Lelouch&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Katekyo Hitman Reborn!&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tengen Toppa Gurren Lagann&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Darker than Black: Kuro no Keiyakusha&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Code Geass: Hangyaku no Lelouch R2&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Soul Eater&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fullmetal Alchemist: Brotherhood&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Darker than Black: Ryuusei no Gemini&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fairy Tail&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Deadman Wonderland&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Darker than Black: Kuro no Keiyakusha Gaiden&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Shiki&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Kore wa Zombie Desu ka?&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Beelzebub&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ao no Exorcist&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Plastic Neesan&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Kore wa Zombie Desu ka? of the Dead&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sankarea&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;High School DxD&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Blood Lad&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sword Art Online&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Zetsuen no Tempest&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;High School DxD New&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Shingeki no Kyojin&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;The Last: Naruto the Movie&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Non Non Biyori&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Noragami&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Soul Eater NOT!&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sword Art Online II&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fairy Tail (2014)&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Akame ga Kill!&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tokyo Ghoul&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Kiseijuu: Sei no Kakuritsu&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;High School DxD BorN&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Trinity Seven&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;God Eater&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tokyo Ghoul √A&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ushio to Tora (TV)&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Noragami Aragoto&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ajin&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;Completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Bleach&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Dropped&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Boku wa Tomodachi ga Sukunai&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Dropped&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Divine Gate&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Dropped&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Shakugan no Shana&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Makai Senki Disgaea&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Lucky☆Star&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Zombie-Loan&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sayonara Zetsubou Sensei&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Rosario to Vampire&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Steins;Gate&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Inu x Boku SS&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Haiyore! Nyaruko-san&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Dakara Boku wa, H ga Dekinai.&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sakurasou no Pet na Kanojo&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;JoJo no Kimyou na Bouken (TV)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Hataraku Maou-sama!&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Strike the Blood&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ore no Nounai Sentakushi ga, Gakuen Love Comedy wo Zenryoku de Jama Shiteiru&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Hamatora The Animation&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Gekkan Shoujo Nozaki-kun&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Nanatsu no Taizai&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Shingeki no Kyojin 2nd Season&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Danna ga Nani wo Itteiru ka Wakaranai Ken&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Koutetsujou no Kabaneri&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Bungou Stray Dogs&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ajin 2nd Season&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Plan to Watch&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Watching: &lt;/b&gt;4&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Completed: &lt;/b&gt;44&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;On Hold: &lt;/b&gt;0&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Dropped: &lt;/b&gt;3&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Plan to Watch: &lt;/b&gt;24&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Days Spent Watching: &lt;/b&gt;34.78 days&lt;/p&gt;</content><author><name></name></author><category term="anime" /><category term="list" /><summary type="html">İzlediğim animelerin listesi</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://i.imgur.com/cS7kju5.png" /></entry><entry><title type="html">IRC Hesap Adı Değiştirme</title><link href="https://taylantatli.github.io/irc-hesap-adi-degistirme/" rel="alternate" type="text/html" title="IRC Hesap Adı Değiştirme" /><published>2016-02-25T00:00:00+00:00</published><updated>2016-02-25T00:00:00+00:00</updated><id>https://taylantatli.github.io/irc-hesap-adi-degistirme</id><content type="html" xml:base="https://taylantatli.github.io/irc-hesap-adi-degistirme/">&lt;p&gt;Öncelikle alttaki komut ile yeni bir nick belirlememiz gerekiyor.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/nick kullanıcıadı&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Daha sonra grup değiştirmek için:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/msg NickServ group&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Ve son olarak da&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/msg NickServ SET ACCOUNTNAME kullanıcıadı&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;komutu ile yeni nickimizi hesap adı olarak değiştirmiş oluyoruz.&lt;/p&gt;</content><author><name></name></author><category term="irc" /><category term="freenode" /><category term="account name" /><summary type="html">Irc üzerinden yeni bir kullanıcı adı oluşturmak için kullanılan komutlar.</summary></entry><entry><title type="html">mps-youtube</title><link href="https://taylantatli.github.io/mps-youtube/" rel="alternate" type="text/html" title="mps-youtube" /><published>2014-11-24T00:00:00+00:00</published><updated>2014-11-24T00:00:00+00:00</updated><id>https://taylantatli.github.io/mps-youtube</id><content type="html" xml:base="https://taylantatli.github.io/mps-youtube/">&lt;p&gt;Biraz önce &lt;a href=&quot;https://github.com/np1/mps-youtube&quot;&gt;mps-youtube&lt;/a&gt; adında küçük bir CLI uygulama keşfettim. Tarayıcıdan Youtube kullanmak zaten biraz kasıntı geliyordu ve bunun için Minitube kullanıyordum. Fakat bu iş için Minitube bile fazla büyük ve gereksiz kalıyordu.&lt;/p&gt;
+
+&lt;p&gt;mps-youtube Yotube üzerinden videoları izleyip dinlememizi, aynı zamanda videoları ses dosyası olarak ya da normal bir şekilde indirmemizi sağlayan küçük bir terminal uygulaması.&lt;/p&gt;
+
+&lt;p&gt;Uygulama videoları çalmak için mplayer kullanıyor fakat mplayer çatallaması olan mpv kullanımına da izin veriyor. Ben mpv’yi tercih ettim.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/s/v8lm0muvpvifzpc/7.png&quot; alt=&quot;mpsyt&quot; title=&quot;mpsyt&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;kurulum&quot;&gt;Kurulum&lt;/h1&gt;
+
+&lt;p&gt;Uygulamayı&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo pip install mps-youtube&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;komutu ile kurabiliyorsunuz. Aynı zamanda Debian Unstable deposunda mps-youtube adı ile veya Arch için Aur üzerinden mps-youtube ve mps-youtube-git adı ile kurabilirsiniz.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;pip komutunu kullanabilmek için python-pip paketinin kurulu olması gerekiyor.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Uygulamayı kurduktan sonra mplayer ya da mpv kurmanız gerekiyor.&lt;/p&gt;
+
+&lt;h1 id=&quot;kullanım-şekli&quot;&gt;Kullanım Şekli&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Uygulamayı başlatmak için&lt;/strong&gt; basitçe&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mpsyt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com//s/qu52v00ea3o5sos/1.png&quot; alt=&quot;mpsyt&quot; title=&quot;Başlangıç Ekranı&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Arama yapmak için&lt;/strong&gt; / işaretini kullanıyoruz, örneğin;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/kelime&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/s/7ldbz2985n1gcue/2.png&quot; alt=&quot;mpsyt&quot; title=&quot;Sonuçlar ve Oynatma Ekranı&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Çıkan sonuçlardan indirmek istediklerinizi&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;d PARÇA-NUMARASI&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;ile indirebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/s/zfhhh108qxh4v9d/4.png&quot; alt=&quot;mpsyt&quot; title=&quot;İndirme Seçenekleri&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/s/wegl0zcv8i9tnxb/5.png&quot; alt=&quot;mpsyt&quot; title=&quot;İndirilecek parça için kalite seçenekleri&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;özelleştirmeler&quot;&gt;Özelleştirmeler&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Uygulamayı özelleştirmek için aşağıdakileri kullanabilirsiniz:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; - view current configuration
+&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &amp;lt;item&amp;gt; default - &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;an item to its default value
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;all default - restore default settings
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;checkupdate &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;|false - check &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;updates on &lt;span class=&quot;nb&quot;&gt;exit
+set &lt;/span&gt;colours &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;|false - use colours &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;display output
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;columns &amp;lt;columns&amp;gt; - &lt;span class=&quot;k&quot;&gt;select &lt;/span&gt;extra displayed fields &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;search results:
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;valid: views comments rating date user likes dislikes category&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;ddir &amp;lt;download direcory&amp;gt; - &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;where downloads are saved
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;encoder &amp;lt;number&amp;gt; - &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;encoding preset &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;downloaded files
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;fullscreen &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;|false - output video content &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;full-screen mode
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;max_res &amp;lt;number&amp;gt; - play / download maximum video resolution height
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;notifier &amp;lt;notifier app&amp;gt; - call &amp;lt;notifier app&amp;gt; with each new song title
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;order &amp;lt;relevance|date|views|rating&amp;gt; search result ordering
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;overwrite &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;|false - overwrite existing files &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;skip &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;player &amp;lt;player app&amp;gt; - use &amp;lt;player app&amp;gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;playback
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;playerargs &amp;lt;args&amp;gt; - use specified arguments with player
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;search_music &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;|false - search only music &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;all categories &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;show_mplayer_keys &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;|false - show keyboard &lt;span class=&quot;nb&quot;&gt;help &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;mplayer and mpv
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;show_status &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;|false - show status messages and progress
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;show_video &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;|false - show video output &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;audio only &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;window_pos &amp;lt;top|bottom&amp;gt;-&amp;lt;left|right&amp;gt; - &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;player window position
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;window_size &amp;lt;number&amp;gt;x&amp;lt;number&amp;gt; - &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;player window width &amp;amp; height&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/s/gaim1n4x69oqo4h/6.png&quot; alt=&quot;mpsyt&quot; title=&quot;Kullanılabilir Ayarlar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;h komutu&lt;/strong&gt; ile yardım başlıklarına bakabilirsiniz. Çıkan sonuçlardan bakmak istediğiniz başlığa girmek için &lt;strong&gt;h başlık&lt;/strong&gt; şeklinde komut girmelisiniz. Örneğin:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;h config&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Kullanılabilir başlıklar şunlar:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;basic      : Basics
+search     : Searching and Retrieving
+edit       : Editing / Manipulating Results
+download   : Downloading and Playback
+encode     : Encoding to MP3 and other formats
+playlists  : Using Local Playlists
+invoke     : Invocation Parameters
+config     : Configuration Options
+tips       : Advanced Tips
+new        : New Features&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/s/i5th8bs7kdw2pqq/3.png&quot; alt=&quot;mpsyt&quot; title=&quot;Yardım Başlıkları&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="youtube" /><category term="mps-youtube" /><category term="terminal" /><category term="cli" /><category term="mpsyt" /><summary type="html">Biraz önce mps-youtube adında küçük bir CLI uygulama keşfettim. Tarayıcıdan Youtube kullanmak zaten biraz kasıntı geliyordu ve bunun için Minitube kullanıyordum. Fakat bu iş için Minitube bile fazla büyük ve gereksiz kalıyordu.</summary></entry></feed>
